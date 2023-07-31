@@ -1,0 +1,57 @@
+.Banner{
+    height: 726px;
+    width: 100%;
+    border-radius: 0px 0px 110px 0px;
+    background: #E9E9E9;
+
+    h1{
+        color: #06182B;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px; /* 123.077% */
+        margin-top: 186px;
+        width: 542px;
+    }
+
+    p{
+        color: #06182B;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 37px; /* 194.737% */
+        margin-top: 30px;
+        width: 441px;
+    }
+
+    button{
+        width: 147px;
+        height: 51px;
+        background: #434656;
+        border: 1px solid #434656;
+        margin-top: 20px;
+
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    a{
+        color: #06182B;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        // text-decoration: none;
+        margin-left: 22px;
+    }
+
+    img{
+        width: 886px;
+        height: 504px;
+        padding-right: 105px;
+        margin-top: 61px;
+    }
+}
