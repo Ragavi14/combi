@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './HomeContent.module.scss';
+import Link from "next/link";
 
 const HomeContent = () => {
     return (
@@ -17,13 +18,13 @@ const HomeContent = () => {
                     </div>
                     <div className={`${styles.txtDiv} col-md-6`}>
                         <h1> Smart Curtain  </h1>
-                        <a href="#"> <img src="/images/arrow.svg" /> Wirefree motors blinds and curtains</a>
-                        <a href="#"> <img src="/images/arrow.svg" /> Interior blinds</a> <br></br>
-                        <a href="#"> <img src="/images/arrow.svg" />  Curtains</a> <br></br>
-                        <a href="#"> <img src="/images/arrow.svg" /> Projection screens</a> <br></br>
-                        <a href="#"> <img src="/images/arrow.svg" />  Connexoon Window RTS</a>
+                        <Link href="#"> <img src="/images/arrow.svg" /> Wirefree motors blinds and curtains</Link>
+                        <Link href="#"> <img src="/images/arrow.svg" /> Interior blinds</Link> <br></br>
+                        <Link href="#"> <img src="/images/arrow.svg" />  Curtains</Link> <br></br>
+                        <Link href="#"> <img src="/images/arrow.svg" /> Projection screens</Link> <br></br>
+                        <Link href="#"> <img src="/images/arrow.svg" />  Connexoon Window RTS</Link>
                         <div className={`${styles.know}`}>
-                        <a href="#"> Know More <img src="/images/arrow.svg" /> </a>
+                        <Link href="#"> Know More <img src="/images/arrow.svg" /> </Link>
                         </div>
                     </div>
                 </div>
@@ -35,27 +36,27 @@ const HomeContent = () => {
                     <p>Applicable Sectors</p>
                     <div className={`${styles.Residential} col-md-2`}>
                         <img src="/images/Residential.png" /> 
-                        <figcaption><a href="#">  Residential</a></figcaption>
+                        <figcaption><Link href="#">  Residential</Link></figcaption>
                     </div>
                     <div className={`${styles.retail} col-md-2`}>
                         <img src="/images/retail.png" /> 
-                        <figcaption><a href="#">Retail & Offices</a></figcaption>
+                        <figcaption><Link href="#">Retail & Offices</Link></figcaption>
                     </div>
                     <div className={`${styles.healthCare} col-md-2`}>
                         <img src="/images/healthCare.png" />  
-                        <figcaption><a href="#"> HealthCare</a></figcaption>
+                        <figcaption><Link href="#"> HealthCare</Link></figcaption>
                     </div>
                     <div className={`${styles.comercial} col-md-2`}>
                        <img src="/images/comercial.png" />
-                       <figcaption><a href="#">  Commercial</a></figcaption>
+                       <figcaption><Link href="#">  Commercial</Link></figcaption>
                     </div>
                     <div className={`${styles.learn} col-md-2`}>
                       <img src="/images/learn.png" />
-                      <figcaption> <a href="#">  Learning</a></figcaption>
+                      <figcaption> <Link href="#">  Learning</Link></figcaption>
                     </div>
                     <div className={`${styles.hospital} col-md-2`}>
                        <img src="/images/hospital.png" />
-                       <figcaption> <a href="#"> Hospitality</a></figcaption>
+                       <figcaption> <Link href="#"> Hospitality</Link></figcaption>
                     </div>
                 </div>
             </div>

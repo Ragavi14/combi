@@ -23,5 +23,8 @@
     "react-dom": "18.2.0",
     "sass": "^1.64.1",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.14.2"
   }
 }

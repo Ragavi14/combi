@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './MainNav.module.scss';
 import { NavDropdown } from 'react-bootstrap';
+import Link from "next/link";
 
 const MainNav = () => {
     return (
@@ -8,7 +9,7 @@ const MainNav = () => {
             <div className={` container`}>
                 <div className="row">
                     <div className="col-md-2">
-                       <a href="/"> <img src="/images/logo.png" /> </a>
+                       <Link href="/"> <img src="/images/logo.png" /> </Link>
                     </div>
                     <div className={`${styles.curtain} col-md-1`}>
                         <NavDropdown title="Curtains" id="basic-nav-dropdown"  >
@@ -84,7 +85,7 @@ const MainNav = () => {
                         </NavDropdown>
                     </div>
                     <div className={`${styles.company} col-md-1`}>
-                        <a href="#">Company</a>
+                        <Link href="#">Company</Link>
                     </div>
                     <div className="col-md-2">
                         <button>Enquire</button>

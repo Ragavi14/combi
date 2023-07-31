@@ -139,5 +139,50 @@
             line-height: 65px; /* 130% */
             text-align: center;
         }
+        h2{
+            color: #000;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 65px; /* 240.741% */
+        }
+        h4{
+            color: #000;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px; /* 147.059% */
+            margin-top: 12px;
+        }
+        p{
+            width: 24px;
+            height: 3px;
+            // border: 1px solid #000;
+            // background-color: #000;
+            margin-top: 75px;
+            margin-left: 110px;
+        }
+        hr{
+            margin-top: 55px;
+        }
+    }
+    .teach{
+        height: 914px;
+        background: #F5F5F5;
+        h1{
+            color: #000;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 65px; /* 130% */
+            padding-top: 119px;
+            text-align: center;
+        }
+        iframe{
+            width: 1280px;
+            height: 603px;
+            margin-top: 27px;
+            border: 1px solid #dbd7d7;
+        }
     }
 }

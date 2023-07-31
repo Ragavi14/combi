@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './ProductDetail.module.scss';
+import Link from "next/link";
 
 const ProductDetail = () => {
     return (
@@ -74,6 +75,49 @@ const ProductDetail = () => {
             <div className={`${styles.faq}`}>
                 <div className="container">
                     <h1>Frequently asked questions</h1>
+                    <div className="row">
+                        <div className="col-md-10">
+                            <h2>All you want to know about product assembly!</h2>
+                            <h4>All products are often delivered flat-packed to save you money and help the environment. They are designed to be easy to 
+                                assemble so you should be able to Do-It-Yourself, making our products even more affordable.</h4>
+                        </div>
+                        <div className="col-md-2">
+                            <p>&#8722;</p>
+                        </div>
+                        <hr />
+                    </div>
+                    <div className="row">
+                        <div className="col-md-10">
+                            <h2>Assembly Videos of your favorite product</h2>
+                        </div>
+                        <div className="col-md-2">
+                            <p>&#43;</p>
+                        </div>
+                        <hr />
+                    </div>
+                    <div className="row">
+                        <div className="col-md-10">
+                            <h2>I have received damaged articles.</h2>
+                        </div>
+                        <div className="col-md-2">
+                            <p>&#43;</p>
+                        </div>
+                        <hr />
+                    </div>
+                    <div className="row">
+                        <div className="col-md-10">
+                            <h2>Assembly Videos of your favorite product</h2>
+                        </div>
+                        <div className="col-md-2">
+                            <p>	&#43;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className={`${styles.teach}`}>
+                <div className="container">
+                    <h1>How to Install</h1>
+                    <iframe src="https://www.youtube.com" />
                 </div>
             </div>
         </div>

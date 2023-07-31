@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './Footer.module.scss';
+import Link from "next/link";
 
 const Footer = () => {
     return (
@@ -9,21 +10,21 @@ const Footer = () => {
                     <div className="col-md-6">
                         <img src="/images/logo.png" />
                         <div className={`${styles.links}`}>
-                                <a className={`${styles.fb}`} href='#'>
+                                <Link className={`${styles.fb}`} href='#'>
                                     <img src="/images/facebook.svg" alt="" />
-                                </a>
-                                <a className={`${styles.insta}`} href='#'>
+                                </Link>
+                                <Link className={`${styles.insta}`} href='#'>
                                     <img src="/images/instagram.svg" alt="" />
-                                </a>
-                                <a className={`${styles.youTube}`} href='#'>
+                                </Link>
+                                <Link className={`${styles.youTube}`} href='#'>
                                     <img src="/images/youtube.svg" alt="" />
-                                </a>
-                                <a className={`${styles.insta}`} href='#'>
+                                </Link>
+                                <Link className={`${styles.insta}`} href='#'>
                                     <img src="/images/linkedin.svg" alt="" />
-                                </a>
-                                <a className={`${styles.insta}`} href='#'>
+                                </Link>
+                                <Link className={`${styles.insta}`} href='#'>
                                     <img src="/images/twitter.svg" alt="" />
-                                </a>
+                                </Link>
                             </div>
                     </div>
                     <div className="col-md-6">
@@ -31,12 +32,12 @@ const Footer = () => {
                             <div className="col-md-6">
                                 <h5> Office Address </h5>
                                     <ul className="links">
-                                        <li><a href="#">FAQ's</a></li>
-                                        <li><a href="#">Become a Dealer</a></li>
-                                        <li><a href="#">Accessories</a></li>
-                                        <li><a href="#">How-to Videos</a></li>
-                                        <li><a href="#"> Catalogue </a></li>
-                                        <li><a href="#"> Downloads </a></li>
+                                        <li><Link href="#">FAQ's</Link></li>
+                                        <li><Link href="#">Become a Dealer</Link></li>
+                                        <li><Link href="#">Accessories</Link></li>
+                                        <li><Link href="#">How-href Videos</Link></li>
+                                        <li><Link href="#"> Catalogue </Link></li>
+                                        <li><Link href="#"> Downloads </Link></li>
                                     </ul>
                             </div>
                             <div className="col-md-6">

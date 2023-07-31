@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './ProductList.module.scss';
+import Link from "next/link";
 
 const ProductList = () => {
     return (
@@ -16,28 +17,28 @@ const ProductList = () => {
                             <img src="/images/img1.png" />
                             <h2>WhiteNoise 3300</h2>
                             <h3>Intelligent Measurement-Free Extendable curtain track system</h3>
-                            <a href="/product-detail">Product catalogue</a>
-                            <a className={`${styles.round}`} href='/product-detail'>
+                            <Link href="/product-detail">Product catalogue</Link>
+                            <Link className={`${styles.round}`} href='/product-detail'>
                                     <img src="/images/arrow-right.png" alt="" />
-                            </a>
+                            </Link>
                         </div>
                         <div className={`${styles.divTwo} col-md-4`}>
                             <img src="/images/headphone.png" />
                             <h2>WhiteNoise 3300</h2>
                             <h3>Intelligent Measurement-Free Extendable curtain track system</h3>
-                            <a href="#">Product catalogue</a>
-                            <a className={`${styles.round}`} href='#'>
+                            <Link href="#">Product catalogue</Link>
+                            <Link className={`${styles.round}`} href='#'>
                                     <img src="/images/arrow-right.png" alt="" />
-                            </a>
+                            </Link>
                         </div>
                         <div className={`${styles.divThree} col-md-4`}>
                             <img src="/images/img2.png" />
                             <h2>WhiteNoise 3300</h2>
                             <h3>Intelligent Measurement-Free Extendable curtain track system</h3>
-                            <a href="#">Product catalogue</a>
-                            <a className={`${styles.round}`} href='#'>
+                            <Link href="#">Product catalogue</Link>
+                            <Link className={`${styles.round}`} href='#'>
                                     <img src="/images/arrow-right.png" alt="" />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
