@@ -26,8 +26,8 @@ const ProductList = () => {
                             <img src="/images/headphone.png" />
                             <h2>WhiteNoise 3300</h2>
                             <h3>Intelligent Measurement-Free Extendable curtain track system</h3>
-                            <Link href="#">Product catalogue</Link>
-                            <Link className={`${styles.round}`} href='#'>
+                            <Link href="/product-detail2">Product catalogue</Link>
+                            <Link className={`${styles.round}`} href='/product-detail2'>
                                     <img src="/images/arrow-right.png" alt="" />
                             </Link>
                         </div>

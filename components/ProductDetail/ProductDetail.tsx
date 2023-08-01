@@ -1,8 +1,9 @@
 import React from "react";
 import styles from './ProductDetail.module.scss';
-import Link from "next/link";
 
 const ProductDetail = () => {
+    const currentPath = window.location.pathname;
+    const fullPath = `${window.location.origin}${currentPath}`;
     return (
         <div className={`${styles.ProductDetail}`}>
             <div className="container">
@@ -11,7 +12,18 @@ const ProductDetail = () => {
                         <img src="/images/img1.png" />
                     </div>
                     <div className={`${styles.text} col-md-6`}>
-                        <p>Home / Products / WhiteNoise 3300</p>
+                        <p>
+                            Home / 
+                            {currentPath.split('/').map((part, index, array) => (
+                            <span key={index}>
+                                {index === array.length - 1 ? (
+                                <span style={{ color: 'blue' }}> {part} </span>
+                                ) : (
+                                <span>{part}</span>
+                                )}
+                            </span>
+                            ))}
+                        </p>
                         <h1>WhiteNoise 3300</h1>
                         <h3>Intelligent Measurement-Free Extendable curtain track system</h3>
                         <button>Enquire</button>
