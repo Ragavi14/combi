@@ -1,5 +1,4 @@
 .Footer{
-    height: 433px;
     width: 100%;
     background: #F5F5F5;
     img{
@@ -75,7 +74,6 @@
                 text-decoration: none;
                 color: rgba(0, 0, 0, 0.72);
                 font-size: 16px;
-                font-style: normal;
                 font-weight: 400;
                 line-height: 28px; /* 175% */
                 letter-spacing: 0.32px;
@@ -85,23 +83,15 @@
         p{
             color: rgba(0, 0, 0, 0.72);
             font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 26px; /* 162.5% */
-            width: 236px;
             margin-top: 13px;
         }
     }
-    hr{
-        margin-top: 31px;
-    }
+
     p{
-        color: rgba(0, 0, 0, 0.50);
+        color: rgba(0, 0, 0, 0.5);
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px; /* 175% */
-        letter-spacing: 0.32px;
         margin-top: 25px;
+        margin-bottom: 0px;
+        padding-bottom: 22px;
     }
 }
