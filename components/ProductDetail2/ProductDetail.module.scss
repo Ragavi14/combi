@@ -1,5 +1,5 @@
 .ProductDetail{
-            margin-top: 50px;
+    margin-top: 50px;
     img{
         width: 747px;
         height: 601.431px;
@@ -69,7 +69,7 @@
         margin-bottom: 100px;
     }
     .specification{
-        height: 1133px;
+        height: 2837px;
         background: #F5F5F5;
 
         h1{
@@ -97,8 +97,8 @@
         }
         h5{
             position: absolute;
-            top: 1590px;
-            left:920px;
+            top: 1146px;
+            left:940px;
         }
         h6{
             color: #000;
@@ -107,31 +107,39 @@
             font-weight: 700;
             line-height: 65px; /* 325% */
             position: absolute;
-            top: 1570px;
+            top: 1126px;
             left: 1011px;
         }
+        h3{
+            color: #000;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px; /* 240.741% */
+            margin-top: 45px;
+        }
+        h4{
+            color: #000;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 34px; /* 125.926% */
+            margin-top: 55px;
+        }
+        h2{
+            color: #000;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 34px; /* 125.926% */
+            margin-top: 55px;
+            width: 208px;
+        }
+        hr{
+            margin-top: 30px;
+        }
     }
-    h2{
-        color: #000;
-        font-size: 27px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 65px; /* 240.741% */
-        margin-top: 50px;
-    }
-    h4{
-        color: #000;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 34px; /* 170% */
-        margin-top: 50px;
-    }
-    hr{
-        border: 1px solid #000;
-        margin-top: 17px;
-    }
-    .faq{
+    .details{
         h1{
             color: #000;
             font-size: 50px;
@@ -142,48 +150,70 @@
         }
         h2{
             color: #000;
+            font-size: 20px;
+            font-style: normal;
+            text-align: center;
+            font-weight: 700;
+            line-height: 65px; /* 325% */
+            width: 259px;
+            height: 66px;
+            border-radius: 40px;
+            border: 1px dashed #000;
+            margin-top: 53px;
+            margin-left: 243px;
+        }
+        h3{
+            color: #000;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 65px; /* 325% */
+            margin-top: 54px;
+            margin-left: 116px;
+        }
+        h4{
+            color: #000;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 65px; /* 325% */
+            margin-top: 54px;
+            margin-left: -90px;
+        }
+        h5{
+            color: #000;
             font-size: 27px;
             font-style: normal;
             font-weight: 400;
             line-height: 65px; /* 240.741% */
+            margin-top: 139px;
+            margin-left: 90px;
         }
-        h4{
+        h6{
             color: #000;
-            font-size: 17px;
+            font-size: 27px;
             font-style: normal;
             font-weight: 400;
-            line-height: 25px; /* 147.059% */
-            margin-top: 12px;
+            line-height: 65px; /* 240.741% */
+            width: 899px;
+            height: 201px;
+            margin-top: 139px;
+            margin-left: -90px;
         }
+    } 
+    .textBox{
+        height: 132px;
+        border: 1px dashed #000;
+        background: #D9D9D9;
+        margin-top: 165px;
+        margin-bottom: 100px;
         p{
-            width: 24px;
-            height: 3px;
-            // border: 1px solid #000;
-            // background-color: #000;
-            margin-top: 75px;
-            margin-left: 110px;
-        }
-        hr{
-            margin-top: 55px;
-        }
-    }
-    .teach{
-        height: 914px;
-        background: #F5F5F5;
-        h1{
             color: #000;
-            font-size: 50px;
+            text-align: center;
+            font-size: 27px;
             font-style: normal;
             font-weight: 400;
-            line-height: 65px; /* 130% */
-            padding-top: 119px;
-            text-align: center;
+            line-height: 37px; /* 137.037% */
         }
-        iframe{
-            width: 1280px;
-            height: 603px;
-            margin-top: 27px;
-            border: 1px solid #dbd7d7;
-        }
-    }
+    }     
 }
