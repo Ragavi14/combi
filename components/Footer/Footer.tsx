@@ -8,21 +8,21 @@ const Footer = () => {
             <div className='container'>
                 <div className='row'>
                     <div className="col-md-6">
-                        <img src="/images/logo.png" />
+                        <img className={`${styles.footerLogo}`} src="/images/logo.png" />
                         <div className={`${styles.links}`}>
-                                <Link className={`${styles.fb}`} href='#'>
+                                <Link className={`${styles.social}`} href='#'>
                                     <img src="/images/facebook.svg" alt="" />
                                 </Link>
-                                <Link className={`${styles.insta}`} href='#'>
+                                <Link className={`${styles.social}`} href='#'>
                                     <img src="/images/instagram.svg" alt="" />
                                 </Link>
-                                <Link className={`${styles.youTube}`} href='#'>
+                                <Link className={`${styles.social}`} href='#'>
                                     <img src="/images/youtube.svg" alt="" />
                                 </Link>
-                                <Link className={`${styles.insta}`} href='#'>
+                                <Link className={`${styles.social}`} href='#'>
                                     <img src="/images/linkedin.svg" alt="" />
                                 </Link>
-                                <Link className={`${styles.insta}`} href='#'>
+                                <Link className={`${styles.social}`} href='#'>
                                     <img src="/images/twitter.svg" alt="" />
                                 </Link>
                             </div>

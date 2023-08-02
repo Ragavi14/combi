@@ -1,68 +1,17 @@
 .Footer{
     width: 100%;
     background: #F5F5F5;
-    img{
-        width: 196px;
-        height: 55px;
-        margin-top: 58px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    .footerLogo{
+            width: 196px;
+            height: 55px;
     }
-    .links{
-        margin-top: 39px;
-        .fb{
-            
-            width: 53px;
-            height: 53px;
-            background: rgba(71, 102, 173, 0.10);
-            border-radius: 50%;
-            display: inline-block;
-            img{
-                width: 12.5px;
-                height: 25px;
-                margin-top: 13px;
-                margin-left: 20px;
-            }
-        }
-        .insta{
-            
-            width: 53px;
-            height: 53px;
-            background: rgba(71, 102, 173, 0.10);
-            border-radius: 50%;
-            display: inline-block;
-            margin-left: 23px;
-            img{
-                width: 25px;
-                height: 25px;
-                margin-top: 13px;
-                margin-left: 13px;
-            }
-        }
-        .youTube{
-            
-            width: 53px;
-            height: 53px;
-            background: rgba(71, 102, 173, 0.10);
-            border-radius: 50%;
-            display: inline-block;
-            margin-left: 23px;
-            img{
-                width: 25px;
-                height: 17.5px;
-                margin-top: 17px;
-                margin-left: 13px;
-            }
-        }
-    }
-
     .office{
-        margin-top: 81px;
-
         h5{
             color: #000;
             font-size: 18px;
-            font-style: normal;
             font-weight: 600;
-            line-height: 26px; /* 144.444% */
         }
 
         ul{
@@ -93,5 +42,24 @@
         margin-top: 25px;
         margin-bottom: 0px;
         padding-bottom: 22px;
+    }
+}
+
+.links{
+    margin-top: 39px;
+    .social{
+        width: 53px;
+        height: 53px;
+        background: rgba(71, 102, 173, 0.1);
+        border-radius: 50%;
+        display: inline-flex;
+        margin-right: 14px;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        max-width: 20px;
+        max-height: 19px;
+        margin-top: 0px;
     }
 }
