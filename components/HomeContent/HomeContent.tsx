@@ -31,45 +31,20 @@ const HomeContent = () => {
                                 <li><Link href="#"> <img src="/images/arrow.svg" /> Projection screens</Link></li>
                                 <li><Link href="#"> <img src="/images/arrow.svg" /> Connexoon Window RTS</Link></li>
                             </ul>
-
                             <div className={`${styles.know}`}>
                                 <Link href="#"> Know More <img src="/images/arrow.svg" /> </Link>
                             </div>
-
                         </div>
                     </div>
                 </div>
                 <div className="row">
-                    <img src="/images/home-content.png" />
-                    <h2>Smart Switches</h2>
-                </div>
-                <div className={`${styles.sectors} row`}>
-                    <p>Applicable Sectors</p>
-                    <div className={`${styles.Residential} col-md-2`}>
-                        <img src="/images/Residential.png" /> 
-                        <figcaption><Link href="#">  Residential</Link></figcaption>
-                    </div>
-                    <div className={`${styles.retail} col-md-2`}>
-                        <img src="/images/retail.png" /> 
-                        <figcaption><Link href="#">Retail & Offices</Link></figcaption>
-                    </div>
-                    <div className={`${styles.healthCare} col-md-2`}>
-                        <img src="/images/healthCare.png" />  
-                        <figcaption><Link href="#"> HealthCare</Link></figcaption>
-                    </div>
-                    <div className={`${styles.comercial} col-md-2`}>
-                       <img src="/images/comercial.png" />
-                       <figcaption><Link href="#">  Commercial</Link></figcaption>
-                    </div>
-                    <div className={`${styles.learn} col-md-2`}>
-                      <img src="/images/learn.png" />
-                      <figcaption> <Link href="#">  Learning</Link></figcaption>
-                    </div>
-                    <div className={`${styles.hospital} col-md-2`}>
-                       <img src="/images/hospital.png" />
-                       <figcaption> <Link href="#"> Hospitality</Link></figcaption>
+                    <div className={`${styles.imgDivBottom}`}>
+                        <img src="/images/home-content.png" />
+                        <h2>Smart Switches</h2>
                     </div>
                 </div>
+
+
             </div>
         </div>
     )

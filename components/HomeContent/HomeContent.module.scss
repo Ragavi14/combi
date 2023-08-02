@@ -1,5 +1,21 @@
 .HomeContent{
     width: 100%;
+    .imgDivBottom{
+        position: relative;
+        margin-top: 20px;
+        h2{
+            position: absolute;
+            bottom: 50px;
+            left: 50px;
+            font-size: 40px;
+            font-weight: 600;
+        }
+        img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
     .imgDiv{
         position: relative;
         h2{
@@ -17,7 +33,6 @@
     }
     .headContent{
         padding: 40px 80px;
-
     }
     p{
         color: #434656;
@@ -33,11 +48,13 @@
         margin-top: 20px;
     }
 
+
     .txtDiv{
         border-radius: 0px 0px 80px 0px;
         background: #0C2034;
         color: #ffffff;
         padding: 60px 40px;
+        height: 100%;
         h2{
             padding-bottom: 40px;
         }
@@ -70,127 +87,6 @@
                 color: #FFF;
                 font-size: 24px;
                 font-weight: 700;
-            }
-        }
-    }
-
-    .sectors{
-            margin-top: 108px;
-            margin-bottom: 100px;
-        p{
-            color: #434656;
-            text-align: center;
-            font-size: 34px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 37px; /* 108.824% */
-        }
-        .Residential{
-            margin-top: 107px;
-            // margin-left: 100px;
-            a{
-                text-decoration: none;
-                color: #434656;
-                text-align: center;
-                font-size: 22px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 37px; /* 168.182% */
-            }
-                img{
-                    width: 46px;
-                    height: 56px;
-                    margin-left: 35px;
-                }
-        }
-        .retail{
-            margin-top: 107px;
-            // margin-left: 100px;
-            img{
-                width: 65px;
-                height: 64px;
-                margin-left: 45px;
-            }
-            a{
-                text-decoration: none;
-                color: #434656;
-                text-align: center;
-                font-size: 22px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 37px; /* 168.182% */
-            }
-        }
-        .healthCare{
-            margin-top: 107px;
-            // margin-left: 100px;
-            img{
-                width: 73px;
-                height: 73px;
-                margin-left: 15px;
-            }
-            a{
-                text-decoration: none;
-                color: #434656;
-                text-align: center;
-                font-size: 22px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 37px; /* 168.182% */
-            }
-        }
-        .comercial{
-            margin-top: 107px;
-            // margin-left: 100px;
-            img{
-                width: 73px;
-                height: 64px;
-                margin-left: 15px;
-            }
-            a{
-                text-decoration: none;
-                color: #434656;
-                text-align: center;
-                font-size: 22px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 37px; /* 168.182% */
-            }
-        }
-        .learn{
-            margin-top: 107px;
-            // margin-left: 100px;
-            img{
-                width: 71px;
-                height: 64px;
-                margin-left: 5px;
-            }
-            a{
-                text-decoration: none;
-                color: #434656;
-                text-align: center;
-                font-size: 22px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 37px; /* 168.182% */
-            }
-        }
-        .hospital{
-            margin-top: 107px;
-            // margin-left: 100px;
-            img{
-                width: 75px;
-                height: 69px;
-                margin-left: 5px;
-            }
-            a{
-                text-decoration: none;
-                color: #434656;
-                text-align: center;
-                font-size: 22px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 37px; /* 168.182% */
             }
         }
     }
