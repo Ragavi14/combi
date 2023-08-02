@@ -1,109 +1,77 @@
 .HomeContent{
-        width: 100%;
+    width: 100%;
+    .imgDiv{
+        position: relative;
+        h2{
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            font-size: 40px;
+            font-weight: 600;
+        }
+        img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+    .headContent{
+        padding: 40px 80px;
+
+    }
     p{
         color: #434656;
         text-align: center;
         font-size: 26px;
-        font-style: normal;
         font-weight: 600;
-        line-height: 37px; /* 142.308% */
-        width: 920px;
-        margin-top: 93px;
-        margin-left: 190px;
     }
     h5{
         color: #434656;
         text-align: center;
         font-size: 34px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 37px; /* 108.824% */
-        margin-top: 85px;
+        margin-top: 20px;
     }
-    .imgDiv{
-        img{
-            width: 600px;
-            height: 574px;
-            margin-top: 97px;
-        }
-        h1{
-            color: #434656;
-            font-size: 50px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 65px; /* 130% */
-            margin-top: 88px;
-            position: absolute;
-            top: 1345px;
-            left: 366px;
-        }
-    }
+
     .txtDiv{
-        width: 600px;
-        height: 574px;
         border-radius: 0px 0px 80px 0px;
         background: #0C2034;
-        margin-top: 97px;
-        margin-left: 60px;
-        h1{
-            color: #FFF;
-            font-size: 50px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 65px; /* 130% */
-            margin-top: 88px;
-            margin-left: 60px; 
-            margin-bottom: 34px;
+        color: #ffffff;
+        padding: 60px 40px;
+        h2{
+            padding-bottom: 40px;
+        }
+        ul{
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
         }
         img{
-            margin-left: 60px;
             margin-right: 20px;
             margin-top: 1px;
             width: 20px;
             height: 11px;
         }
         a{
-            text-decoration: none;
             color: #FFF;
             font-size: 24px;
             font-style: normal;
             font-weight: 400;
-            line-height: 41px; /* 170.833% */
-            
+            text-decoration: none;
         }
         .know{
-                margin-top: 60px;
-                margin-left: 60px;
+            margin-top: 60px;
             img{
                 width: 20px;
                 height: 11px;
                 margin-left: 22px;
             }
             a{
-                text-decoration: none;
                 color: #FFF;
                 font-size: 24px;
-                font-style: normal;
                 font-weight: 700;
-                line-height: 41px; /* 170.833% */
             }
         }
-    }
-    img{
-        width: 1374px;
-        height: 574px;
-        margin-top: 51px;
-    }
-    h2{
-        margin-top: 88px;
-        position: absolute;
-        top: 2060px;
-        left: 366px; 
-        color: #434656;
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 65px; /* 130% */
     }
 
     .sectors{
