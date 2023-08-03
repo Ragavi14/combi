@@ -1,7 +1,8 @@
 .ProductDetail{
             margin-top: 50px;
+            width: 100%;
     img{
-        width: 747px;
+        width: 100%;
         height: 601.431px;
         border-radius: 0px 71px 0px 0px;
     }
@@ -11,59 +12,39 @@
             margin-top: 60px;
             color: #000;
             font-size: 20px;
-            font-style: normal;
             font-weight: 400;
-            line-height: 65px; /* 325% */
         }
         h1{
             color: #000;
             font-size: 50px;
-            font-style: normal;
             font-weight: 400;
-            line-height: 65px; /* 130% */
             margin-top: -40px;
             margin-left: 170px;
         }
         h3{
             color: #000;
             font-size: 24px;
-            font-style: normal;
             font-weight: 400;
-            line-height: 35px; /* 145.833% */
             margin-left: 170px;
             margin-top: 20px;
         }
-        button{
-            width: 147px;
-            height: 51px;
-            background: #434656;
-            border: 1px solid #434656;
+        a{
             margin-left: 170px;
             margin-top: 30px;
-
-            color: #FFF;
-            font-size: 17px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: 26px; /* 152.941% */
         }
     }
     h1{
         color: #000;
         font-size: 50px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 65px; /* 130% */
         margin-top: 104px;
         margin-left: 40px;
     }
     p{
         color: #000;
         font-size: 20px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 36px; /* 180% */
-        width: 1119px;
+       
         margin-left: 40px;
         margin-top: 24px;
         margin-bottom: 100px;
@@ -71,89 +52,82 @@
     .specification{
         height: 1133px;
         background: #F5F5F5;
+        position: relative;
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        a:active{
+            text-align: center;
+            border-radius: 40px;
+            border: 1px dashed #000;
+            padding: 30px 50px 30px 50px;
+        }
 
         h1{
             color: #000;
             font-size: 50px;
-            font-style: normal;
             font-weight: 400;
-            line-height: 65px; /* 130% */
             text-align: center;
             padding-top: 90px;
         }
         p{
             color: #000;
             font-size: 20px;
-            font-style: normal;
             font-weight: 700;
-            line-height: 65px; /* 325% */
-            text-align: center;
-            border-radius: 40px;
-            border: 1px dashed #000;
-            width: 197px;
-            height: 66px;
             margin-left: 417px;
             margin-top: 40px;
         }
         h5{
             position: absolute;
-            top: 1590px;
+            top: 195px;
             left:920px;
         }
         h6{
             color: #000;
             font-size: 20px;
-            font-style: normal;
             font-weight: 700;
-            line-height: 65px; /* 325% */
             position: absolute;
-            top: 1570px;
+            top: 195px;
             left: 1011px;
         }
-    }
-    h2{
-        color: #000;
-        font-size: 27px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 65px; /* 240.741% */
-        margin-top: 50px;
-    }
-    h4{
-        color: #000;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 34px; /* 170% */
-        margin-top: 50px;
-    }
-    hr{
-        border: 1px solid #000;
-        margin-top: 17px;
+        h2{
+            color: #000;
+            font-size: 27px;
+            font-weight: 400;
+            margin-top: 50px;
+        }
+        h4{
+            color: #000;
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 50px;
+        }
+        hr{
+            border: 1px solid #000;
+            margin-top: 17px;
+        }
     }
     .faq{
         h1{
             color: #000;
             font-size: 50px;
-            font-style: normal;
             font-weight: 400;
-            line-height: 65px; /* 130% */
             text-align: center;
+            line-height: 65px;
         }
         h2{
             color: #000;
             font-size: 27px;
-            font-style: normal;
             font-weight: 400;
-            line-height: 65px; /* 240.741% */
+            line-height: 65px;
         }
         h4{
             color: #000;
             font-size: 17px;
-            font-style: normal;
             font-weight: 400;
-            line-height: 25px; /* 147.059% */
             margin-top: 12px;
+            line-height: 25px;
         }
         p{
             width: 24px;
@@ -163,9 +137,6 @@
             margin-top: 75px;
             margin-left: 110px;
         }
-        hr{
-            margin-top: 55px;
-        }
     }
     .teach{
         height: 914px;
@@ -173,14 +144,12 @@
         h1{
             color: #000;
             font-size: 50px;
-            font-style: normal;
             font-weight: 400;
-            line-height: 65px; /* 130% */
             padding-top: 119px;
             text-align: center;
         }
         iframe{
-            width: 1280px;
+            width: 100%;
             height: 603px;
             margin-top: 27px;
             border: 1px solid #dbd7d7;

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './ProductDetail.module.scss';
+import Link from "next/link";
 
 const ProductDetail = () => {
     const currentPath = window.location.pathname;
@@ -26,7 +27,7 @@ const ProductDetail = () => {
                         </p>
                         <h1>WhiteNoise 3300</h1>
                         <h3>Intelligent Measurement-Free Extendable curtain track system</h3>
-                        <button>Enquire</button>
+                        <a href={`#`} className={`btn btn-primary`}>Enquire</a>
                     </div>
                 </div>
                 <div className="row">
@@ -39,9 +40,9 @@ const ProductDetail = () => {
             </div>
             <div className={`${styles.specification}`}>
                 <div className="container">
-                    <h1>Specifications</h1>
-                    <p>Hardware</p><h5>|</h5>
-                    <h6>Software</h6>
+                    <h1 id="spl">Specifications</h1>
+                    <p><Link href="#spl">Hardware </Link> </p><h5>|</h5>
+                    <h6><Link href="#spl">Software </Link> </h6>
                     <div className="row">
                         <div className="col-md-4">
                             <h2>Supported curtain types</h2>

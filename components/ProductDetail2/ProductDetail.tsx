@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './ProductDetail.module.scss';
+import Link from "next/link";
 
 const ProductDetail = () => {
     const currentPath = window.location.pathname;
@@ -26,15 +27,15 @@ const ProductDetail = () => {
                         </p>
                         <h1>WhiteNoise 3300</h1>
                         <h3>Intelligent Measurement-Free Extendable curtain track system</h3>
-                        <button>Enquire</button>
+                        <a href={`#`} className={`btn btn-primary`}>Enquire</a>
                     </div>
                 </div>
             </div>
             <div className={`${styles.specification}`}>
                 <div className="container">
-                    <h1>Specifications</h1>
-                    <p>Key Features</p><h5>|</h5>
-                    <h6>Technical Specifications</h6>
+                    <h1 id="spl">Specifications</h1>
+                    <p><Link href="#spl"> Key Features </Link></p>
+                    <h6> <Link href="#spl"> Technical Specifications </Link> </h6>
                     <div className="row">
                         <div className="col-md-4">
                             <h3>Design</h3>
@@ -168,16 +169,16 @@ const ProductDetail = () => {
             </div>
             <div className={`${styles.details}`}>
                 <div className="container">
-                    <h1>Details & specifications</h1>
+                    <h1 id="detail">Details & specifications</h1>
                     <div className={`${styles.lineContainer} row`}>
                         <div className="col-md-4">
-                            <h2>What’s inside box</h2>
+                            <h2><Link href="#detail">What’s inside box </Link></h2>
                         </div>
                         <div className="col-md-4">
-                            <h3>|   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Accessories</h3>
+                            <h3> <Link href="#detail"> Accessories  </Link> </h3>
                         </div>
                         <div className="col-md-4">
-                            <h4>|   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Not Included But Required</h4>
+                            <h4> <Link href="#detail"> Not Included But Required </Link></h4>
                         </div>
                     </div>
                     <div className="row">

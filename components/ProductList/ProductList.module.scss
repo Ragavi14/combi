@@ -1,68 +1,54 @@
 .ProductList{
-
-    h2{
-        color: #000;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 65px; /* 216.667% */
-        text-align: center;
-        position: absolute;
-        top: 279px;
-    }
-    p{
-        color: #000;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 65px; /* 325% */
-        text-align: center;
-        border-radius: 40px;
-        border: 1px dashed #000;
-        width: 398px;
-        height: 66px;
-        position: absolute;
-        top: 362px;
-        left: 395px;
-    }
-    h5{
-        position: absolute;
-        top: 384px;
-        left: 818px;
-    }
-    h6{
-        color: #000;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 65px; /* 325% */
-        position: absolute;
-        top: 363px;
-        left: 870px;
-    }
-    .Div{
-        margin-bottom: 481px;
-    }
-    .divOne{
-        width: 426.147px;
-        height: 541px;
-        border: 1px solid #DDD;
-        border-radius: 0px 71px 0px 0px;
-        background: #FFF;
-        position: absolute;
-        top: 555px;
-        left: 176px;
-        img{
-            margin-top: 18px;
-            margin-left: 5px;
-            border-radius: 0px 71px 0px 0px;
+        width: 100%;
+        .imgDivTop{
+            width: 100%;
+            position: relative;
+            img{
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        h4{
+            color: #000;
+            font-size: 30px;
+            font-weight: 700;
+            position: absolute;
+            top: 100px;
+            left: 700px;
         }
-        h2{
+        p{
             color: #000;
             font-size: 20px;
             font-style: normal;
             font-weight: 700;
             line-height: 65px; /* 325% */
+            position: absolute;
+            top: 180px;
+            left: 395px;
+        }
+        h5{
+            position: absolute;
+            top: 200px;
+            left: 800px;
+        }
+        h6{
+            color: #000;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 65px; /* 325% */
+            position: absolute;
+            top: 180px;
+            left: 870px;
+        }
+    }
+    .Div{
+        margin-bottom: 550px;
+        position: relative;
+        h2{
+            color: #000;
+            font-size: 20px;
+            font-weight: 700;
             margin-top: 45px;
             margin-left: 30px;
         }
@@ -70,22 +56,28 @@
             width: 326px;
             color: #000;
             font-size: 16px;
-            font-style: normal;
             font-weight: 400;
-            line-height: 23px; /* 143.75% */
-            margin-top: 40px;
             margin-left: 30px;
-            margin-bottom: 60px;
+            margin-bottom: 30px;
         }
         a{
             color: #000;
             font-size: 14px;
-            font-style: normal;
             font-weight: 600;
-            line-height: normal;
-            letter-spacing: 0.28px;
-            text-transform: capitalize;
             margin-left: 30px;
+            margin-bottom: 40px;
+        }
+    
+    .divOne{
+        border: 1px solid #DDD;
+        border-radius: 0px 71px 0px 0px;
+        background: #FFF;
+        position: absolute;
+        top: -150px;
+        img{
+            margin-top: 18px;
+            margin-left: 5px;
+            border-radius: 0px 71px 0px 0px;
         }
         .round{
             width: 43px;
@@ -94,6 +86,7 @@
             background: rgba(71, 102, 173, 0.10);
             margin-left: 170px;
             display: inline-block;
+            
             img{
                 height: 13px;
                 width: 13px;
@@ -101,50 +94,19 @@
                 margin-left: 15px;
             }
         }
+       
     }
     .divTwo{
-        width: 426.147px;
-        height: 541px;
         border: 1px solid #DDD;
         border-radius: 0px 71px 0px 0px;
         background: #FFF;
         position: absolute;
-        top: 555px;
-        left: 630px;
+        top: -150px;
+        left: 453px;
         img{
             margin-top: 18px;
             margin-left: 5px;
             border-radius: 0px 71px 0px 0px;
-        }
-        h2{
-            color: #000;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 65px; /* 325% */
-            margin-top: 45px;
-            margin-left: 30px;
-        }
-        h3{
-            width: 326px;
-            color: #000;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 23px; /* 143.75% */
-            margin-top: 40px;
-            margin-left: 30px;
-            margin-bottom: 60px;
-        }
-        a{
-            color: #000;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: normal;
-            letter-spacing: 0.28px;
-            text-transform: capitalize;
-            margin-left: 30px;
         }
         .round{
             width: 43px;
@@ -153,6 +115,7 @@
             background: rgba(71, 102, 173, 0.10);
             margin-left: 170px;
             display: inline-block;
+            
             img{
                 height: 13px;
                 width: 13px;
@@ -162,48 +125,16 @@
         }
     }
     .divThree{
-        width: 426.147px;
-        height: 541px;
         border: 1px solid #DDD;
         border-radius: 0px 71px 0px 0px;
         background: #FFF;
         position: absolute;
-        top: 555px;
-        left: 1084px;
+        top: -150px;
+        left: 905px;
         img{
             margin-top: 18px;
             margin-left: 5px;
             border-radius: 0px 71px 0px 0px;
-        }
-        h2{
-            color: #000;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 65px; /* 325% */
-            margin-top: 45px;
-            margin-left: 30px;
-        }
-        h3{
-            width: 326px;
-            color: #000;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 23px; /* 143.75% */
-            margin-top: 40px;
-            margin-left: 30px;
-            margin-bottom: 60px;
-        }
-        a{
-            color: #000;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: normal;
-            letter-spacing: 0.28px;
-            text-transform: capitalize;
-            margin-left: 30px;
         }
         .round{
             width: 43px;
@@ -212,6 +143,7 @@
             background: rgba(71, 102, 173, 0.10);
             margin-left: 170px;
             display: inline-block;
+            
             img{
                 height: 13px;
                 width: 13px;
@@ -220,4 +152,5 @@
             }
         }
     }
+}
 }

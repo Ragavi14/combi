@@ -20,7 +20,7 @@ const MainNav = () => {
                                 <NavDropdown title="Curtains" id="basic-nav-dropdown"  >
                                     <div className={`${styles.NavBar}`}>
                                         <div className={`${styles.HeadNav}`}>
-                                            <NavDropdown.Header>Extendable</NavDropdown.Header>
+                                            <p>Extendable</p>
                                         </div>
                                         <div className={`${styles.txtNav}`}>
                                             <NavDropdown.Item href="#">WhiteNoise 3300</NavDropdown.Item>
@@ -28,13 +28,13 @@ const MainNav = () => {
                                             <NavDropdown.Item href="#">WhiteNoise 3600</NavDropdown.Item>
                                         </div>
                                         <div className={`${styles.HeadNav}`}>
-                                            <NavDropdown.Header>Customisable</NavDropdown.Header>
+                                            <p>Customisable</p>
                                         </div>
                                         <div className={`${styles.txtNav}`}>
                                             <NavDropdown.Item href="#">WhiteNoise 2000</NavDropdown.Item>
                                         </div>
                                         <div className={`${styles.HeadNav}`}>
-                                            <NavDropdown.Header>Accessories</NavDropdown.Header>
+                                            <p>Accessories</p>
                                         </div>
                                         <div className={`${styles.txtNav}`}>
                                             <NavDropdown.Item href="#">Curtain Motor</NavDropdown.Item>
@@ -60,6 +60,7 @@ const MainNav = () => {
                                 <NavDropdown title="Switches" id="basic-nav-dropdown"  >
                                     <div className={`${styles.NavBar}`}>
                                         <div className={`${styles.txtNav}`}>
+                                            
                                             <NavDropdown.Item href="#">One Gang </NavDropdown.Item>
                                             <NavDropdown.Item href="#">Two Gang </NavDropdown.Item>
                                             <NavDropdown.Item href="#">Three Gang</NavDropdown.Item>
